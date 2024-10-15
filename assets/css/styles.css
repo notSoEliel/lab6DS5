@@ -1,0 +1,141 @@
+/* CUERPOO */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f0f8; 
+}
+h1, h3 {
+    margin: 0;
+}
+
+/* --------- HAEDER --------- */
+header {
+    background-color: #b494d9; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+header .lead {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+/* --------- NAVBARR ---------*/
+.navbar {
+    background-color: #8e77a7; 
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* --------- POSTSSSS ---------*/
+.post {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    width: 80%;
+}
+
+.post-header img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.post-header h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.post-body p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* --------- TABLASS ---------- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #b494d9; 
+    color: white;
+}
+
+table td {
+    background-color: #f0e8f6; 
+}
+
+/* ---------- FOOTERRRR -------- */
+footer {
+    background-color: #8e77a7; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer form {
+    margin: 20px 0;
+}
+/* Quería centrar los inputs de texto y email, no era lo que quería pero centrado está xd */
+footer fieldset {
+    display: inline;
+    border: none;
+    width: 60%;
+    text-align: center;
+}
+
+footer label {
+    display: block;
+    margin-bottom: 10px;
+}
+/* Para no modificar el html, selecciono el tipo de input específico para cambiar su estilo */
+footer input[type="text"], footer input[type="email"] { 
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+footer input[type="submit"] {
+    margin-left: 10px;
+    background-color: #b494d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
